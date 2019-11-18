@@ -106,7 +106,7 @@ function adv_helper_watermark($name, $ext)
         if ($bwidth > $lwidth+15 &&  $bheight > $lheight+15)
         {
             //where exactly do we have to make the watermark ..
-            [$src_x, $src_y] = adv_get_watermark_position($bwidth, $bheight, $lwidth, $lheight, 'image');
+            list($src_x, $src_y) = adv_get_watermark_position($bwidth, $bheight, $lwidth, $lheight, 'image');
 
             //make it now, watermark it
             @imagealphablending($src_img, true);
