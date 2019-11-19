@@ -19,7 +19,7 @@ $kleeja_plugin['advanced_watermark']['information'] = [
     // Who wrote this plugin?
     'plugin_developer' => 'Kleeja.com',
     // This plugin version
-    'plugin_version' => '1.0',
+    'plugin_version' => '1.1',
     // Explain what is this plugin, why should I use it?
     'plugin_description' => [
         'en' => 'Advanced watermark features',
